@@ -1,0 +1,80 @@
+{
+  "payload": {
+    "schemaVersion": 2,
+    "channel": "stable",
+    "generatedAt": "2026-09-14T19:01:30.753Z",
+    "apps": [
+      {
+        "id": "enverse",
+        "name": "Enverse",
+        "description": "Uygulama merkezi",
+        "category": "Sistem",
+        "packageName": "com.enverse.app",
+        "versionName": "0.2.0",
+        "versionCode": 3,
+        "accent": "#7C65E8",
+        "changelog": [
+          "İmzalı dinamik katalog",
+          "Otomatik sürüm kontrolü",
+          "Arama, kategoriler ve indirme yönetimi"
+        ],
+        "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
+        "sizeBytes": 85508545,
+        "sha256": "d4c5bb8c82de600f9025ed6e313ebb8bc9e489c74b7f963823c2e2caf6c10ee2",
+        "releasedAt": "2026-09-14T19:01:30.346Z"
+      },
+      {
+        "id": "maxen",
+        "name": "Maxen",
+        "description": "Film ve dizi",
+        "category": "Video",
+        "packageName": "com.maxen.app",
+        "versionName": "10.6.5",
+        "versionCode": 23,
+        "accent": "#E94B61",
+        "changelog": [
+          "Kararlı dağıtım"
+        ],
+        "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
+        "sizeBytes": 86502396,
+        "sha256": "c31c46f5e45fb57da887038e267d2bfce5b58f500a728ce500e5472014ba6ae4",
+        "releasedAt": "2026-09-14T19:01:30.539Z"
+      },
+      {
+        "id": "tuben",
+        "name": "Tuben",
+        "description": "Video ve shorts",
+        "category": "Video",
+        "packageName": "com.tuben.app",
+        "versionName": "1.0.0",
+        "versionCode": 1,
+        "accent": "#4285E8",
+        "changelog": [
+          "Kararlı dağıtım"
+        ],
+        "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
+        "sizeBytes": 93203956,
+        "sha256": "a42f523308dd1f724066115db4fd0b142a979bfe12384be44efe1258d252aaf0",
+        "releasedAt": "2026-09-14T19:01:30.753Z"
+      },
+      {
+        "id": "voxen",
+        "name": "Voxen",
+        "description": "Müzik ve podcast",
+        "category": "Müzik",
+        "packageName": "com.voxen.music",
+        "versionName": "1.0.0",
+        "versionCode": 1,
+        "accent": "#9254D8",
+        "changelog": [
+          "Kararlı dağıtım"
+        ],
+        "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
+        "sizeBytes": 43991573,
+        "sha256": "dd0740cc6c1e0b8d70d57d0e9adebbea3feda69ddf8cd4567df4f4033b464330",
+        "releasedAt": "2026-09-14T19:01:30.130Z"
+      }
+    ]
+  },
+  "signature": "QgnQ9s6p8G8Qm97pQYSdEnTz2MlaBWO3sb82k+iWIb8DmVUF0XbpbdIVt1OdR847Rob+gCFTNPxhxXQ+qSNOwaG+EkVkBAAB7xWjNuYg7LL4XJeUxJTgFG5uFBdYdPrJ5LsISm5OE3czsOKNA7vRmyipZgioT29mbMMK5v42ycwezdRinkK/nTlzAguy5jfNBiMLc69tgRLT5rItV7Vc9GW7LG5UWhDHuFU+DzpU2sFpn33upDiXy+yLMVFrEyoV9Up0YxrPzVF5wdwDrtEk9gbvhpwMo7rDQ5KpQWM6x69WVzMcM1c7UL7Auuyvfa4WeEZ2bTdqOKhEyOWRq+eITQ=="
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "channel": "stable",
+  "apps": [
+    {
+      "id": "enverse",
+      "name": "Enverse",
+      "description": "Uygulama merkezi",
+      "category": "Sistem",
+      "packageName": "com.enverse.app",
+      "asset": "enverse.apk",
+      "versionName": "0.2.0",
+      "versionCode": 3,
+      "accent": "#7C65E8",
+      "changelog": ["İmzalı dinamik katalog", "Otomatik sürüm kontrolü", "Arama, kategoriler ve indirme yönetimi"]
+    },
+    {
+      "id": "maxen",
+      "name": "Maxen",
+      "description": "Film ve dizi",
+      "category": "Video",
+      "packageName": "com.maxen.app",
+      "asset": "maxen.apk",
+      "versionName": "10.6.5",
+      "versionCode": 23,
+      "accent": "#E94B61",
+      "changelog": ["Kararlı dağıtım"]
+    },
+    {
+      "id": "tuben",
+      "name": "Tuben",
+      "description": "Video ve shorts",
+      "category": "Video",
+      "packageName": "com.tuben.app",
+      "asset": "tuben.apk",
+      "versionName": "1.0.0",
+      "versionCode": 1,
+      "accent": "#4285E8",
+      "changelog": ["Kararlı dağıtım"]
+    },
+    {
+      "id": "voxen",
+      "name": "Voxen",
+      "description": "Müzik ve podcast",
+      "category": "Müzik",
+      "packageName": "com.voxen.music",
+      "asset": "voxen.apk",
+      "versionName": "1.0.0",
+      "versionCode": 1,
+      "accent": "#9254D8",
+      "changelog": ["Kararlı dağıtım"]
+    }
+  ]
+}
