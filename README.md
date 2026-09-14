@@ -2,6 +2,8 @@
 
 Enverse'in public APK dağıtımı ve RSA imzalı uygulama kataloğudur. Kaynak kod burada tutulmaz. Repoya ve Release varlıklarına yalnızca sahibi veya açıkça yetkilendirilmiş collaborator yazabilir.
 
+Yeni uygulama ve sürüm yayınlamanın eksiksiz anlatımı için [`KATALOG_KULLANIM_REHBERI.md`](./KATALOG_KULLANIM_REHBERI.md) dosyasını okuyun.
+
 ## Yeni uygulama veya sürüm yayınlama
 
 1. APK dosyasını en son GitHub Release'e yükleyin.

@@ -21,10 +21,10 @@
       "category": "Video",
       "packageName": "com.maxen.app",
       "asset": "maxen.apk",
-      "versionName": "10.6.6",
-      "versionCode": 24,
+      "versionName": "10.6.5",
+      "versionCode": 23,
       "accent": "#E94B61",
-      "changelog": ["Katalog güncelleme testi — APK değiştirilmedi"]
+      "changelog": ["Kararlı dağıtım"]
     },
     {
       "id": "tuben",
