@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-09-14T19:06:14.764Z",
+    "generatedAt": "2026-09-14T19:08:55.181Z",
     "apps": [
       {
         "id": "enverse",
@@ -21,7 +21,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
         "sizeBytes": 85508545,
         "sha256": "d4c5bb8c82de600f9025ed6e313ebb8bc9e489c74b7f963823c2e2caf6c10ee2",
-        "releasedAt": "2026-09-14T19:06:14.696Z"
+        "releasedAt": "2026-09-14T19:08:55.118Z"
       },
       {
         "id": "maxen",
@@ -29,16 +29,16 @@
         "description": "Film ve dizi",
         "category": "Video",
         "packageName": "com.maxen.app",
-        "versionName": "10.6.5",
-        "versionCode": 23,
+        "versionName": "10.6.6",
+        "versionCode": 24,
         "accent": "#E94B61",
         "changelog": [
-          "Kararlı dağıtım"
+          "Katalog güncelleme testi — APK değiştirilmedi"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
         "sizeBytes": 86502396,
         "sha256": "c31c46f5e45fb57da887038e267d2bfce5b58f500a728ce500e5472014ba6ae4",
-        "releasedAt": "2026-09-14T19:06:14.633Z"
+        "releasedAt": "2026-09-14T19:08:55.063Z"
       },
       {
         "id": "tuben",
@@ -55,7 +55,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
         "sizeBytes": 93203956,
         "sha256": "a42f523308dd1f724066115db4fd0b142a979bfe12384be44efe1258d252aaf0",
-        "releasedAt": "2026-09-14T19:06:14.764Z"
+        "releasedAt": "2026-09-14T19:08:55.181Z"
       },
       {
         "id": "voxen",
@@ -72,9 +72,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
         "sizeBytes": 43991573,
         "sha256": "dd0740cc6c1e0b8d70d57d0e9adebbea3feda69ddf8cd4567df4f4033b464330",
-        "releasedAt": "2026-09-14T19:06:14.558Z"
+        "releasedAt": "2026-09-14T19:08:54.960Z"
       }
     ]
   },
-  "signature": "FjOQPaZ1Qzg4LGsJVpIPanJbkVKwXMx8IxqUs5c0T71QtEcbY5ufsxj7Mv/xWt7tHQazmQRMSjheKm6ZVfbntEiDKsjVwWI5aKu3/IC7ohEeyAQCjliJqA4nGHILQ36LFR0t7V9uFF/svDGLz/yTpo6RsgEgcQhDstSyC1NM46RhoJ/OvaBnR5X+sP/K2px6N1vC5Dq5GiOXU+wBnysgsR94lc2SO18YgaY9yFumrOqW0qf4448Zc2GJzKk0N+94XZEVnYsgJnRksczQaJCkVj0clO/bogugVKIZlBGK0xzQ50Us4s9LNfDQTBm6SfkMtG7cd5/KkznyBGST5hFYzg=="
+  "signature": "dorepke/sebkWZFb7qnqYs0yKpyQChQtR0RxvVonSjmvv2qsJFwy+TQ+9+/vkimCfwPBlsfadmG6s3rjstvvafxUWdutP5iL5E6ieflMCOSrwMk78+IcHrDN/Epfn3O7z8wUva8mRQEqs4lQ0rNL6YhI0XVNu3fQXh5ANp5Q/UTyyP8qQC0qQWFcbSxbSx9PfBapOugLPslNDYnHtQ4XM44+sjVJSeJVwUqssTn/XxZpi8rappJxGMGHMRg34Znd8njsBODFYIMEtA76MTGPwswsn/TJK5dz+sCSYvLPxUWhjGJCP8XR2k9m/Fl5X+v8HQCM7Vb51BUhwg24M4xyjg=="
 }
