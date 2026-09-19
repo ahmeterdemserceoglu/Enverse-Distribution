@@ -9,11 +9,11 @@
       "category": "Sistem",
       "packageName": "com.enverse.app",
       "asset": "enverse.apk",
-      "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse.png",
-      "versionName": "0.2.0",
-      "versionCode": 3,
+      "versionName": "0.3.0",
+      "versionCode": 4,
       "accent": "#7C65E8",
-      "changelog": ["İmzalı dinamik katalog", "Otomatik sürüm kontrolü", "Arama, kategoriler ve indirme yönetimi"]
+      "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse.png",
+      "changelog": ["Yeni Enverse uygulama ikonu", "İmzalı dinamik katalog", "Otomatik sürüm kontrolü", "Arama, kategoriler ve indirme yönetimi"]
     },
     {
       "id": "maxen",
@@ -66,6 +66,19 @@
       "versionCode": 1,
       "accent": "#3B82F6",
       "changelog": ["İlk kararlı sürüm", "Cihazlar arası eşitleme", "Dosya önizleme ve arşiv yönetimi"]
+    },
+    {
+      "id": "collabo",
+      "name": "Collabo",
+      "description": "Ortak panolar, görevler ve ekip çalışması",
+      "category": "Üretkenlik",
+      "packageName": "com.collabo.app",
+      "asset": "collabo.apk",
+      "versionName": "1.0",
+      "versionCode": 1,
+      "accent": "#FBBF24",
+      "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/collabo.png",
+      "changelog": ["İlk Enverse sürümü", "Ortak çalışma panoları", "Görev, ödev ve mesajlaşma araçları"]
     }
   ]
 }
