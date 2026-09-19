@@ -31,17 +31,19 @@
         "description": "Film ve dizi",
         "category": "Video",
         "packageName": "com.maxen.app",
-        "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/maxen.png",
-        "versionName": "10.6.5",
-        "versionCode": 23,
+        "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/maxen-v2.png",
+        "versionName": "10.6.6",
+        "versionCode": 24,
         "accent": "#E94B61",
         "changelog": [
-          "Kararlı dağıtım"
+          "Yeni Maxen uygulama kimliği ve ikonları",
+          "Android TV İzlemeye Devam Et entegrasyonu",
+          "İzleme kaydı ve cihazlar arası aktarım düzeltmeleri"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
-        "sizeBytes": 86502396,
-        "sha256": "c31c46f5e45fb57da887038e267d2bfce5b58f500a728ce500e5472014ba6ae4",
-        "releasedAt": "2026-09-19T14:17:08.568Z"
+        "sizeBytes": 86973813,
+        "sha256": "9e4b1a5484cbe979df43f3c56118d31551fe336cb4b2c52857ca7ac03d5fe57a",
+        "releasedAt": "2026-09-19T15:17:00.000Z"
       },
       {
         "id": "tuben",
@@ -49,17 +51,18 @@
         "description": "Video ve shorts",
         "category": "Video",
         "packageName": "com.tuben.app",
-        "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/tuben.png",
-        "versionName": "1.0.0",
-        "versionCode": 1,
+        "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/tuben-v2.png",
+        "versionName": "1.0.1",
+        "versionCode": 2,
         "accent": "#4285E8",
         "changelog": [
-          "Kararlı dağıtım"
+          "Yeni Tuben uygulama kimliği ve ikonları",
+          "Expo 57 uyumlu Android release paketi"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
-        "sizeBytes": 93203956,
-        "sha256": "a42f523308dd1f724066115db4fd0b142a979bfe12384be44efe1258d252aaf0",
-        "releasedAt": "2026-09-19T14:17:08.620Z"
+        "sizeBytes": 86280887,
+        "sha256": "e1ebda928775c0a83a5dc4c9451cb59e663d7cb2718894a0a2ace1e2fe239ccf",
+        "releasedAt": "2026-09-19T15:17:00.000Z"
       },
       {
         "id": "voxen",
@@ -67,7 +70,7 @@
         "description": "Müzik ve podcast",
         "category": "Müzik",
         "packageName": "com.voxen.music",
-        "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/voxen.png",
+        "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/voxen-v2.png",
         "versionName": "1.0.0",
         "versionCode": 1,
         "accent": "#9254D8",
