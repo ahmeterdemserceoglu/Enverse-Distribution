@@ -3,17 +3,499 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Voxen Hesap Silme</title>
-  <style>body{max-width:760px;margin:48px auto;padding:0 20px;font:16px/1.65 system-ui,sans-serif;color:#1c1917}h1,h2{line-height:1.25}a{color:#6d28d9}.button{display:inline-block;padding:12px 18px;border-radius:10px;background:#1c1917;color:white;text-decoration:none}</style>
+  <title>Voxen — Hesap ve Veri Silme</title>
+  <meta name="description" content="Voxen mobil uygulaması kullanıcı hesabı ve kişisel veri silme talep sayfası.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #09090b;
+      --card-bg: rgba(24, 24, 27, 0.75);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --accent: #FF3B30;
+      --accent-glow: rgba(255, 59, 48, 0.25);
+      --accent-gradient: linear-gradient(135deg, #FF3B30 0%, #D32F2F 100%);
+      --text-main: #FAFAFA;
+      --text-muted: #A1A1AA;
+      --text-sub: #71717A;
+      --font: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: 
+        radial-gradient(circle at 85% 15%, rgba(255, 59, 48, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 15% 80%, rgba(255, 59, 48, 0.05) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    header {
+      border-bottom: 1px solid var(--card-border);
+      background: rgba(9, 9, 11, 0.8);
+      backdrop-filter: blur(16px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .nav-container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px var(--accent-glow);
+      object-fit: cover;
+    }
+
+    .brand-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-main);
+    }
+
+    .main-content {
+      max-width: 860px;
+      margin: 40px auto 60px;
+      padding: 0 24px;
+      width: 100%;
+      flex: 1;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 24px 0 8px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: rgba(255, 59, 48, 0.12);
+      border: 1px solid rgba(255, 59, 48, 0.25);
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: #FF5A50;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .hero h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 14px;
+      background: linear-gradient(180deg, #FFFFFF 40%, #A1A1AA 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    /* Process Flow */
+    .steps-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+
+    .step-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px;
+      backdrop-filter: blur(12px);
+      text-align: center;
+      position: relative;
+    }
+
+    .step-number {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(255, 59, 48, 0.15);
+      color: var(--accent);
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+      font-size: 0.9rem;
+    }
+
+    .step-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+      color: var(--text-main);
+    }
+
+    .step-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    /* Action Card */
+    .action-card {
+      background: linear-gradient(145deg, rgba(30, 30, 36, 0.95) 0%, rgba(18, 18, 22, 0.9) 100%);
+      border: 1px solid rgba(255, 59, 48, 0.3);
+      border-radius: 20px;
+      padding: 36px 32px;
+      text-align: center;
+      margin-bottom: 32px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4), 0 0 24px rgba(255, 59, 48, 0.1);
+    }
+
+    .action-card h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .action-card p {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      max-width: 580px;
+      margin: 0 auto 24px;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 26px;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    .btn-danger {
+      background: var(--accent-gradient);
+      color: #FFFFFF;
+      border: none;
+      box-shadow: 0 4px 18px var(--accent-glow);
+    }
+
+    .btn-danger:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 24px rgba(255, 59, 48, 0.4);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-main);
+      border: 1px solid var(--card-border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .app-quick-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px dashed var(--card-border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      display: inline-block;
+      max-width: 580px;
+    }
+
+    .app-quick-box strong {
+      color: #FFF;
+    }
+
+    /* Content Cards */
+    .info-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(12px);
+    }
+
+    .info-card h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .info-card h3::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    .info-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
+    .info-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .info-card ul {
+      list-style: none;
+      margin: 12px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .info-card li {
+      position: relative;
+      padding-left: 20px;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+    }
+
+    .info-card li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: bold;
+      position: absolute;
+      left: 6px;
+    }
+
+    .info-card strong {
+      color: var(--text-main);
+    }
+
+    /* Toast */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #18181B;
+      color: #FFF;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s;
+      opacity: 0;
+      z-index: 100;
+      pointer-events: none;
+    }
+
+    #toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 32px 24px;
+      text-align: center;
+      color: var(--text-sub);
+      font-size: 0.85rem;
+      background: #09090b;
+    }
+
+    footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    footer a:hover {
+      color: var(--text-main);
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.85rem; }
+      .steps-container { grid-template-columns: 1fr; }
+      .action-card { padding: 24px 20px; }
+      .info-card { padding: 20px; }
+      .nav-links { display: none; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Voxen hesabınızı silme</h1>
-  <p>Voxen hesabınızın ve hesabınıza bağlı bulut verilerinin silinmesini istemek için aşağıdaki düğmeyle kayıtlı e-posta adresinizden bize ulaşın.</p>
-  <p><a class="button" href="mailto:ahmeterdemserceoglo@gmail.com?subject=Voxen%20Hesap%20Silme%20Talebi&body=Voxen%20hesab%C4%B1m%C4%B1n%20ve%20ili%C5%9Fkili%20verilerimin%20silinmesini%20istiyorum.%0A%0AKay%C4%B1tl%C4%B1%20e-posta%20adresim%3A%20">Hesap silme talebi gönder</a></p>
-  <h2>Silinen veriler</h2>
-  <p>Kimlik doğrulama hesabınız, profil bilgileriniz, beğenileriniz, çalma listeleriniz, takip ilişkileriniz ve hesabınıza bağlı diğer bulut kayıtları silinir. Yasal bir saklama zorunluluğu doğarsa yalnızca zorunlu kayıtlar ilgili süre boyunca tutulabilir.</p>
-  <h2>Süreç</h2>
-  <p>Talebinizi kayıtlı e-posta adresinizden gönderin. Kimlik doğrulamasından sonra talep en geç 30 gün içinde sonuçlandırılır. Cihazda bulunan yerel indirmeleri kaldırmak için Voxen'i kaldırabilir veya uygulama verilerini temizleyebilirsiniz.</p>
-  <p><a href="../privacy/voxen.html">Voxen Gizlilik Politikası</a></p>
+
+  <header>
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <img class="brand-logo" src="../icons/voxen.png" alt="Voxen Logo">
+        <span class="brand-title">VOXEN</span>
+      </a>
+      <nav class="nav-links">
+        <a href="../privacy/voxen.html">Gizlilik Politikası</a>
+        <a href="mailto:ahmeterdemserceoglo@gmail.com">Destek</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="hero">
+      <div class="hero-badge">
+        <span>🛡️ Veri ve Hesap Yönetimi</span>
+      </div>
+      <h1>Voxen Hesabınızı ve Verilerinizi Silin</h1>
+      <p>Kullanıcı verilerinizin gizliliğine ve kontrolüne saygı duyuyoruz. Aşağıdaki yöntemlerden biriyle hesabınızı ve tüm bulut verilerinizi kalıcı olarak silebilirsiniz.</p>
+    </div>
+
+    <div class="steps-container">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <div class="step-title">Talep Oluşturun</div>
+        <div class="step-desc">Uygulama içinden veya e-posta yoluyla silme isteğinizi bize iletin.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <div class="step-title">Kimlik Doğrulama</div>
+        <div class="step-desc">Yetkisiz silinmeleri önlemek amacıyla hesabınız teyit edilir.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <div class="step-title">Kalıcı Silinme</div>
+        <div class="step-desc">Tüm bulut kayıtlarınız, kütüphaneniz ve verileriniz sistemden temizlenir.</div>
+      </div>
+    </div>
+
+    <div class="action-card">
+      <h2>Hesap Silme Talebi Gönder</h2>
+      <p>Aşağıdaki düğmeye tıklayarak Voxen'e kayıtlı e-posta adresinizden hazır şablon ile silme talebinizi gönderebilirsiniz.</p>
+      
+      <div class="btn-group">
+        <a class="btn btn-danger" href="mailto:ahmeterdemserceoglo@gmail.com?subject=Voxen%20Hesap%20Silme%20Talebi&body=Merhaba,%0A%0AVoxen%20hesab%C4%B1m%C4%B1n%20ve%20bu%20hesaba%20ba%C4%9Fl%C4%B1%20t%C3%BCm%20bulut%20verilerimin%20(profil,%20be%C4%9Feniler,%20%C3%A7alma%20listeleri)%20kal%C4%B1c%C4%B1%20olarak%20silinmesini%20talep%20ediyorum.%0A%0AKay%C4%B1tl%C4%B1%20E-posta%20Adresim:%20%0AKullan%C4%B1c%C4%B1%20Ad%C4%B1m%20(varsa):%20%0A%0ATe%C5%9Fekk%C3%BCrler.">
+          ✉️ E-posta ile Talep Gönder
+        </a>
+        <button class="btn btn-secondary" onclick="copyEmail()">
+          📋 E-postayı Kopyala
+        </button>
+      </div>
+
+      <div class="app-quick-box">
+        💡 <strong>Uygulama İçi Hızlı Silme:</strong> Voxen uygulamasında <strong>Ayarlar &gt; Hesap &gt; Hesabı Sil</strong> seçeneğini kullanarak talebe gerek kalmadan anında hesabınızı kapatabilirsiniz.
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3>Silinen Veriler</h3>
+      <p>Hesap silme işlemi tamamlandığında aşağıdaki veriler sistemlerimizden geri döndürülemez biçimde temizlenir:</p>
+      <ul>
+        <li><strong>Kimlik ve Profil:</strong> Firebase kimlik doğrulama kaydı, e-posta adresi, kullanıcı adı ve profil fotoğrafı bağlantısı.</li>
+        <li><strong>Kütüphane ve İçerik:</strong> Beğendiğiniz şarkılar, oluşturduğunuz kişisel çalma listeleri ve dinleme odası kayıtları.</li>
+        <li><strong>Sosyal İlişkiler:</strong> Takip ettiğiniz kullanıcılar ve sizi takip eden profiller arasındaki tüm bağlantılar.</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>Cihazınızdaki Yerel Dosyalar</h3>
+      <p>Çevrimdışı dinlemek üzere cihazınıza indirdiğiniz müzik parçaları ve önbellek dosyaları yalnızca kendi cihazınızda tutulur. Bu dosyaları tamamen temizlemek için cihazınızın Ayarlar &gt; Uygulamalar bölümünden Voxen uygulama verilerini silebilir veya uygulamayı kaldırabilirsiniz.</p>
+    </div>
+
+    <div class="info-card">
+      <h3>İşlem Süresi ve Yasal Saklama</h3>
+      <p>Kayıtlı e-posta adresinizden gelen silme talepleri en geç <strong>30 gün içerisinde</strong> işleme alınır ve veritabanımızdan kalıcı olarak yok edilir. Yasal yükümlülükler gereği saklanması zorunlu olan muhasebe veya güvenlik kayıtları haricinde hiçbir veri tutulmaz.</p>
+    </div>
+  </main>
+
+  <div id="toast">Destek e-posta adresi kopyalandı!</div>
+
+  <footer>
+    <p>&copy; 2026 Voxen &bull; Laze Studio. Tüm hakları saklıdır.</p>
+    <p style="margin-top: 8px;">
+      <a href="../privacy/voxen.html">Gizlilik Politikası</a> &bull; 
+      <a href="../delete-account/voxen.html">Hesap Silme</a> &bull; 
+      <a href="mailto:ahmeterdemserceoglo@gmail.com">Destek</a>
+    </p>
+  </footer>
+
+  <script>
+    function copyEmail() {
+      navigator.clipboard.writeText("ahmeterdemserceoglo@gmail.com").then(function() {
+        var toast = document.getElementById("toast");
+        toast.className = "show";
+        setTimeout(function() {
+          toast.className = toast.className.replace("show", "");
+        }, 2500);
+      });
+    }
+  </script>
 </body>
 </html>

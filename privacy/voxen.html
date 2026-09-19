@@ -3,33 +3,470 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Voxen Gizlilik Politikası</title>
-  <style>body{max-width:800px;margin:48px auto;padding:0 20px;font:16px/1.65 system-ui,sans-serif;color:#1c1917}h1,h2{line-height:1.25}a{color:#6d28d9}</style>
+  <title>Voxen — Gizlilik Politikası</title>
+  <meta name="description" content="Voxen mobil uygulaması resmi gizlilik politikası ve kişisel veri koruma şartları.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #09090b;
+      --card-bg: rgba(24, 24, 27, 0.75);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-hover: rgba(39, 39, 42, 0.9);
+      --accent: #FF3B30;
+      --accent-glow: rgba(255, 59, 48, 0.25);
+      --accent-gradient: linear-gradient(135deg, #FF3B30 0%, #D32F2F 100%);
+      --text-main: #FAFAFA;
+      --text-muted: #A1A1AA;
+      --text-sub: #71717A;
+      --font: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(255, 59, 48, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(255, 59, 48, 0.05) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    header {
+      border-bottom: 1px solid var(--card-border);
+      background: rgba(9, 9, 11, 0.8);
+      backdrop-filter: blur(16px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .nav-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px var(--accent-glow);
+      object-fit: cover;
+    }
+
+    .brand-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-tag {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: rgba(255, 59, 48, 0.15);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-main);
+    }
+
+    .main-content {
+      max-width: 900px;
+      margin: 40px auto 60px;
+      padding: 0 24px;
+      width: 100%;
+      flex: 1;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 48px;
+      padding: 32px 0 16px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .hero-badge-dot {
+      width: 8px;
+      height: 8px;
+      background: #34C759;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(52, 199, 89, 0.6);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+      background: linear-gradient(180deg, #FFFFFF 40%, #A1A1AA 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto;
+    }
+
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .highlight-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px;
+      backdrop-filter: blur(12px);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 59, 48, 0.3);
+    }
+
+    .highlight-icon {
+      font-size: 1.75rem;
+      margin-bottom: 12px;
+      display: inline-block;
+    }
+
+    .highlight-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--text-main);
+    }
+
+    .highlight-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(12px);
+    }
+
+    .section-card h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-card h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 20px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    .section-card p {
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      font-size: 0.98rem;
+    }
+
+    .section-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-card ul {
+      list-style: none;
+      margin: 14px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .section-card li {
+      position: relative;
+      padding-left: 24px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .section-card li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: bold;
+      font-size: 1.2rem;
+      position: absolute;
+      left: 6px;
+      top: -2px;
+    }
+
+    .section-card strong {
+      color: var(--text-main);
+    }
+
+    .cta-card {
+      background: linear-gradient(135deg, rgba(255, 59, 48, 0.12) 0%, rgba(24, 24, 27, 0.85) 100%);
+      border: 1px solid rgba(255, 59, 48, 0.25);
+      border-radius: 20px;
+      padding: 36px;
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .cta-card h3 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #FFF;
+    }
+
+    .cta-card p {
+      color: var(--text-muted);
+      max-width: 540px;
+      margin: 0 auto 24px;
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--accent-gradient);
+      color: #FFFFFF;
+      box-shadow: 0 4px 16px var(--accent-glow);
+    }
+
+    .btn-primary:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(255, 59, 48, 0.35);
+    }
+
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 32px 24px;
+      text-align: center;
+      color: var(--text-sub);
+      font-size: 0.85rem;
+      background: #09090b;
+    }
+
+    footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    footer a:hover {
+      color: var(--text-main);
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.9rem; }
+      .section-card { padding: 24px 20px; }
+      .highlights-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Voxen Gizlilik Politikası</h1>
-  <p><strong>Son güncelleme:</strong> 19 Eylül 2026</p>
-  <p>Bu politika, Laze Studio tarafından sunulan Voxen mobil uygulamasında kişisel verilerin nasıl işlendiğini açıklar.</p>
 
-  <h2>Toplanan veriler</h2>
-  <p>Hesap oluşturduğunuzda e-posta adresiniz, görünen adınız, kullanıcı adınız ve isteğe bağlı profil fotoğrafı bağlantınız işlenebilir. Beğenileriniz, çalma listeleriniz, takip ilişkileriniz, dinleme odası durumunuz ve uygulama ayarlarınız hesabınızla eşitlenebilir. İndirdiğiniz müzik dosyaları uygulamanın yerel alanında cihazınızda tutulur.</p>
+  <header>
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <img class="brand-logo" src="../icons/voxen.png" alt="Voxen Logo">
+        <span class="brand-title">VOXEN</span>
+        <span class="brand-tag">Müzik</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#toplanan-veriler">Toplanan Veriler</a>
+        <a href="#kullanim-amaci">Kullanım Amacı</a>
+        <a href="../delete-account/voxen.html">Hesap Silme</a>
+        <a href="mailto:ahmeterdemserceoglo@gmail.com">İletişim</a>
+      </nav>
+    </div>
+  </header>
 
-  <h2>Verilerin kullanım amacı</h2>
-  <p>Veriler; oturum açmayı sağlamak, kütüphanenizi cihazlar arasında eşitlemek, çalma listelerini ve sosyal özellikleri sunmak, dinleme odalarını çalıştırmak, güvenliği sağlamak ve hataları gidermek amacıyla kullanılır. Voxen kişisel verileri satmaz ve üçüncü taraf reklam ağı kullanmaz.</p>
+  <main class="main-content">
+    <div class="hero">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        <span>Son Güncelleme: 19 Eylül 2026 • v1.0</span>
+      </div>
+      <h1>Gizlilik Politikası</h1>
+      <p>Bu politika, Laze Studio tarafından geliştirilen Voxen mobil uygulamasında kişisel verilerinizin nasıl toplandığını, korunduğunu ve işlendiğini açıklar.</p>
+    </div>
 
-  <h2>Hizmet sağlayıcılar</h2>
-  <p>Kimlik doğrulama, bulut eşitleme ve gerçek zamanlı özellikler için Google Firebase hizmetleri kullanılır. Arama terimleri ve içerik kimlikleri, kullanıcının istediği müzik ve şarkı sözü sonuçlarını getirmek amacıyla ilgili içerik sağlayıcılarına iletilebilir. Bu sağlayıcıların işlemleri kendi gizlilik koşullarına tabidir.</p>
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon">🚫</div>
+        <div class="highlight-title">Sıfır Reklam</div>
+        <div class="highlight-desc">Uygulamamızda 3. taraf reklam izleyicileri yoktur ve verileriniz asla reklamcılara satılmaz.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🔒</div>
+        <div class="highlight-title">TLS/SSL Şifreleme</div>
+        <div class="highlight-desc">Tüm veri aktarımları endüstri standardı modern şifreleme protokolleriyle güvence altındadır.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">💾</div>
+        <div class="highlight-title">Yerel İndirmeler</div>
+        <div class="highlight-desc">Çevrimdışı müzik dosyaları cihazınızın yerel depolama alanında tutulur, sunuculara aktarılmaz.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🛡️</div>
+        <div class="highlight-title">Tam Veri Kontrolü</div>
+        <div class="highlight-desc">Hesabınızı ve bağlı tüm bulut verilerinizi uygulama içinden veya web'den tek tıkla silebilirsiniz.</div>
+      </div>
+    </div>
 
-  <h2>Saklama ve güvenlik</h2>
-  <p>Hesap verileri hizmetin sağlanması için gerekli olduğu sürece veya hesap silinene kadar saklanır. Aktarım sırasında standart şifreleme yöntemleri kullanılır. Hiçbir internet hizmeti mutlak güvenlik garantisi veremez.</p>
+    <div class="section-card" id="toplanan-veriler">
+      <h2>Toplanan Veriler</h2>
+      <p>Voxen, size müzik çalma ve kütüphane eşitleme deneyimi sağlamak adına yalnızca gerekli minimum verileri işler:</p>
+      <ul>
+        <li><strong>Hesap ve Kimlik Bilgileri:</strong> Kayıt olduğunuzda e-posta adresiniz, belirlediğiniz görünen ad ve kullanıcı kimliğiniz.</li>
+        <li><strong>Uygulama İçi Etkinlik:</strong> Favoriye eklediğiniz şarkılar, oluşturduğunuz çalma listeleri, dinleme odası oturum durumunuz ve dinleme geçmişiniz.</li>
+        <li><strong>Yerel Tercihler:</strong> Tema tercihleriniz (Koyu/OLED), ses ayarlarınız ve yerel çevrimdışı indirme önbelleğiniz.</li>
+      </ul>
+      <p>Kredi kartı, telefon numarası, konum, rehber veya hassas kişisel veriler toplanmaz.</p>
+    </div>
 
-  <h2>Çocukların gizliliği</h2>
-  <p>Voxen özellikle çocuklara yönelik değildir. Uygulama, yürürlükteki mevzuatın izin vermediği yaşlardaki çocuklardan bilerek kişisel veri toplamak amacıyla tasarlanmamıştır.</p>
+    <div class="section-card" id="kullanim-amaci">
+      <h2>Verilerin Kullanım Amaçları</h2>
+      <p>Toplanan kullanıcı verileri aşağıdaki sınırlı ve meşru amaçlar için kullanılır:</p>
+      <ul>
+        <li>Oturum açma ve hesap güvenliğinizi sağlamak,</li>
+        <li>Müzik kütüphanenizi ve çalma listelerinizi farklı cihazlar arasında gerçek zamanlı eşitlemek,</li>
+        <li>Arkadaşlarınızla aynı anda müzik dinleyebilmeniz için canlı dinleme odalarını çalıştırmak,</li>
+        <li>Uygulama içi performans ve kararlılık iyileştirmelerini gerçekleştirmek.</li>
+      </ul>
+      <p>Voxen, kişisel verileri hiçbir koşulda pazarlama amacıyla satmaz, kiralamaz veya paylaşmaz.</p>
+    </div>
 
-  <h2>Hesap ve veri silme</h2>
-  <p>Hesabınızın ve ilişkili bulut verilerinin silinmesini istemek için <a href="../delete-account/voxen.html">Voxen hesap silme sayfasını</a> kullanabilirsiniz.</p>
+    <div class="section-card">
+      <h2>Hizmet Sağlayıcılar ve Altyapı</h2>
+      <p>Voxen; güvenli kimlik doğrulama, bulut veri tabanı ve gerçek zamanlı eşitleme ihtiyaçları için <strong>Google Firebase</strong> altyapısını kullanır.</p>
+      <p>Arama terimleri ve içerik kimlikleri, talep ettiğiniz müzik ve şarkı sözü sonuçlarını getirebilmek amacıyla ilgili müzik sağlayıcılarına iletilebilir. Bu servis sağlayıcıların veri işleme süreçleri kendi uluslararası güvenlik standartlarına ve gizlilik koşullarına tabidir.</p>
+    </div>
 
-  <h2>İletişim</h2>
-  <p>Gizlilikle ilgili sorularınız için <a href="mailto:ahmeterdemserceoglo@gmail.com">ahmeterdemserceoglo@gmail.com</a> adresine ulaşabilirsiniz.</p>
+    <div class="section-card">
+      <h2>Veri Saklama ve Güvenlik</h2>
+      <p>Hesap verileriniz ve çalma listeleriniz, hesabınız aktif olduğu müddetçe veya siz silme talebinde bulunana kadar saklanır. İletim sırasında güvenli TLS 1.3 / SSL şifrelemesi uygulanır.</p>
+      <p>İnternet üzerinden gerçekleşen hiçbir aktarımın mutlak güvenliği garanti edilemese de, verilerinizin yetkisiz erişimlere karşı korunması için sektör standartlarında güvenlik önlemleri alınmaktadır.</p>
+    </div>
+
+    <div class="section-card">
+      <h2>Çocukların Gizliliği</h2>
+      <p>Voxen genel kitleye hitap eden bir müzik uygulamasıdır ve 13 yaşın (veya bulunduğunuz ülkedeki yasal asgari yaş sınırının) altındaki çocuklara yönelik özel olarak tasarlanmamıştır. Çocuklardan bilerek kişisel veri toplanmaz.</p>
+    </div>
+
+    <div class="section-card">
+      <h2>Hesap ve Veri Silme Hakları</h2>
+      <p>GDPR ve KVKK uyarınca, dilediğiniz zaman hesabınızın ve sistemlerimizde tutulan tüm verilerinizin kalıcı olarak silinmesini talep etme hakkına sahipsiniz.</p>
+      <p>Hesabınızı doğrudan uygulama içindeki <strong>Ayarlar > Hesap > Hesabı Sil</strong> adımlarını takip ederek veya web üzerinden talep oluşturarak silebilirsiniz.</p>
+    </div>
+
+    <div class="cta-card">
+      <h3>Hesabınızı ve Verilerinizi Silmek mi İstiyorsunuz?</h3>
+      <p>Hesabınızı ve ilişkili tüm bulut verilerini dilediğiniz an tek tıkla silebilirsiniz. Süreç hakkında ayrıntılı bilgi için Hesap Silme sayfamızı ziyaret edin.</p>
+      <a href="../delete-account/voxen.html" class="btn btn-primary">Hesap Silme Sayfasına Git →</a>
+    </div>
+
+    <div class="section-card" style="margin-top: 24px;">
+      <h2>İletişim</h2>
+      <p>Gizlilik politikamız, kişisel verileriniz veya uygulama hakkında her türlü soru ve talebiniz için doğrudan geliştirici ekibimize ulaşabilirsiniz:</p>
+      <p style="margin-top: 10px;">
+        ✉️ <strong>E-posta:</strong> <a href="mailto:ahmeterdemserceoglo@gmail.com" style="color: var(--accent); text-decoration: none; font-weight: 600;">ahmeterdemserceoglo@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Voxen &bull; Laze Studio. Tüm hakları saklıdır.</p>
+    <p style="margin-top: 8px;">
+      <a href="../privacy/voxen.html">Gizlilik Politikası</a> &bull; 
+      <a href="../delete-account/voxen.html">Hesap Silme</a> &bull; 
+      <a href="mailto:ahmeterdemserceoglo@gmail.com">Destek</a>
+    </p>
+  </footer>
+
 </body>
 </html>
