@@ -9,11 +9,11 @@
       "category": "Sistem",
       "packageName": "com.enverse.app",
       "asset": "enverse.apk",
-      "versionName": "0.3.0",
-      "versionCode": 4,
+      "versionName": "0.3.1",
+      "versionCode": 5,
       "accent": "#7C65E8",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse-v2.png",
-      "changelog": ["Yeni Enverse uygulama ikonu", "İmzalı dinamik katalog", "Otomatik sürüm kontrolü", "Arama, kategoriler ve indirme yönetimi"]
+      "changelog": ["Ana ekran ikonunun boşluğu düzeltildi", "Uygulama içi Enverse logosu yenilendi", "İmzalı dinamik katalog", "Otomatik sürüm kontrolü"]
     },
     {
       "id": "maxen",
