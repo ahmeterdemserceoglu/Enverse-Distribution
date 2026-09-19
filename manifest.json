@@ -12,7 +12,7 @@
       "versionName": "0.3.0",
       "versionCode": 4,
       "accent": "#7C65E8",
-      "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse.png",
+      "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse-v2.png",
       "changelog": ["Yeni Enverse uygulama ikonu", "İmzalı dinamik katalog", "Otomatik sürüm kontrolü", "Arama, kategoriler ve indirme yönetimi"]
     },
     {
