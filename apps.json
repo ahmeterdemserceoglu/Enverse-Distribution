@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-09-19T14:07:33.338Z",
+    "generatedAt": "2026-09-19T14:15:34.150Z",
     "apps": [
       {
         "id": "enverse",
@@ -10,20 +10,20 @@
         "description": "Uygulama merkezi",
         "category": "Sistem",
         "packageName": "com.enverse.app",
-        "versionName": "0.3.0",
-        "versionCode": 4,
+        "versionName": "0.3.1",
+        "versionCode": 5,
         "accent": "#7C65E8",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse-v2.png",
         "changelog": [
-          "Yeni Enverse uygulama ikonu",
+          "Ana ekran ikonunun boşluğu düzeltildi",
+          "Uygulama içi Enverse logosu yenilendi",
           "İmzalı dinamik katalog",
-          "Otomatik sürüm kontrolü",
-          "Arama, kategoriler ve indirme yönetimi"
+          "Otomatik sürüm kontrolü"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
         "sizeBytes": 83145673,
         "sha256": "8f6064473ea312acb4fbf39bbadccb5f1faa1c97fb493d84a952097339c0f66a",
-        "releasedAt": "2026-09-19T14:07:33.227Z"
+        "releasedAt": "2026-09-19T14:15:33.963Z"
       },
       {
         "id": "maxen",
@@ -41,7 +41,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
         "sizeBytes": 86502396,
         "sha256": "c31c46f5e45fb57da887038e267d2bfce5b58f500a728ce500e5472014ba6ae4",
-        "releasedAt": "2026-09-19T14:07:33.181Z"
+        "releasedAt": "2026-09-19T14:15:34.022Z"
       },
       {
         "id": "tuben",
@@ -59,7 +59,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
         "sizeBytes": 93203956,
         "sha256": "a42f523308dd1f724066115db4fd0b142a979bfe12384be44efe1258d252aaf0",
-        "releasedAt": "2026-09-19T14:07:33.281Z"
+        "releasedAt": "2026-09-19T14:15:34.085Z"
       },
       {
         "id": "voxen",
@@ -77,7 +77,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
         "sizeBytes": 43991573,
         "sha256": "dd0740cc6c1e0b8d70d57d0e9adebbea3feda69ddf8cd4567df4f4033b464330",
-        "releasedAt": "2026-09-19T14:07:33.119Z"
+        "releasedAt": "2026-09-19T14:15:33.872Z"
       },
       {
         "id": "kurmay",
@@ -97,7 +97,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/kurmay.apk",
         "sizeBytes": 99995047,
         "sha256": "fc8cb9ff2336e6f2d76bfdf9d1c028100377096076ba5f30be5647c79fad12e3",
-        "releasedAt": "2026-09-19T14:07:33.338Z"
+        "releasedAt": "2026-09-19T14:15:34.150Z"
       },
       {
         "id": "collabo",
@@ -117,9 +117,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/collabo.apk",
         "sizeBytes": 24673909,
         "sha256": "7539791e117f8755a5b9fba5b9a40dfab430e822711eefc400634ce1487e629f",
-        "releasedAt": "2026-09-19T14:07:33.086Z"
+        "releasedAt": "2026-09-19T14:15:33.760Z"
       }
     ]
   },
-  "signature": "M1Uq2FGBrVqOcCFqiF6F3tor89miyGnn/I7MqHXcpcKMxkeml2N78NqDas82NVSuieJdcZtKHbXQqcq6KXmNmvZiaY0Z9sTASfQRLBbfJV6A32U/WP4XPnRZHxfpORl0P3oDmSttmRPQ2uTaxbQXPSSpyeO1y35E+ck8v82v4Vqme6AD1Azj2ynePhwAp5+264ufRE+nf30ViRQ67iZ1WM8SfaGK4/X3BI5lSMNusHrb+FUpaEWh7cwjb5ODIvhJHZ2D9GdvXJi6y9FNKzrlqtjEfAdxfDzD2aU1dA8HVd3cxZA3bLy+xOkAYSJP9HcHKEKTC7FIbXoBzexRvCmy3g=="
+  "signature": "L3861y84Zq0j5E7GAf+663KPpSeGiz8j2D/kPExmwX0qDANefhq5R6Mk1gJtReyW57SVi1uNuc7XGk1DCIidLwf8OlxvnU1Bnzw85qoqMdM81Jjfcs9G6cKzPGo3Vxbh0JDTe6rslR4a3w+dwSecz+4Mlz53JGXpY+Ix9qt+YGYh/00HUvyeMTKjrSjIiui5Dk7spMEB42F9lVvp+hDhF0Gl1iK2GH9ZibU1B6Ubwf+dtygMGxkD3a12WOF+yCE6sJHwDE+cYys/MnyfLEsazdhLJzQqdt+FJO0Z1l5BSyvmlhyLQj8NniNW+cywQWBWSEg7s1LJ7CQ8w44UTgze/Q=="
 }
