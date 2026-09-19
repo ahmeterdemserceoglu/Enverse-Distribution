@@ -49,6 +49,18 @@
       "versionCode": 1,
       "accent": "#9254D8",
       "changelog": ["Kararlı dağıtım"]
+    },
+    {
+      "id": "kurmay",
+      "name": "Kurmay",
+      "description": "Doküman ve çalışma arşivi",
+      "category": "Üretkenlik",
+      "packageName": "com.foxen.app",
+      "asset": "kurmay.apk",
+      "versionName": "1.0.0",
+      "versionCode": 1,
+      "accent": "#3B82F6",
+      "changelog": ["İlk kararlı sürüm", "Cihazlar arası eşitleme", "Dosya önizleme ve arşiv yönetimi"]
     }
   ]
 }
