@@ -13,7 +13,10 @@
       "versionCode": 6,
       "accent": "#7C65E8",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse-v2.png",
-      "changelog": ["Güncel Maxen, Tuben ve Voxen katalog bilgileri", "Android derleme uyumluluğu ve daha küçük APK paketi"]
+      "changelog": [
+        "Güncel Maxen, Tuben ve Voxen katalog bilgileri",
+        "Android derleme uyumluluğu ve daha küçük APK paketi"
+      ]
     },
     {
       "id": "maxen",
@@ -23,10 +26,13 @@
       "packageName": "com.maxen.app",
       "asset": "maxen.apk",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/maxen-v2.png",
-      "versionName": "10.6.9",
-      "versionCode": 27,
+      "versionName": "10.6.10",
+      "versionCode": 28,
       "accent": "#E94B61",
-      "changelog": ["İndirilen film ve bölümler oynatılırken yerel dosya öncelikli kullanılır", "Eksik HLS parçaları ve hatalı video yanıtları artık tamamlandı sayılmaz", "Duraklatma, kaldığı yerden devam etme ve indirme silme düzeltildi", "HLS ses, altyazı, başlangıç dosyası ve anahtar rotasyonu desteği geliştirildi", "10.6.6 ve daha eski Enverse Maxen kurulumlarında imza değişikliği nedeniyle yeniden kurulum gerekebilir"]
+      "changelog": [
+        "Güncel Maxen Android sürüm paketi",
+        "İndirme ve çevrimdışı oynatma iyileştirmelerini içerir"
+      ]
     },
     {
       "id": "tuben",
@@ -39,7 +45,12 @@
       "versionName": "1.0.2",
       "versionCode": 3,
       "accent": "#4285E8",
-      "changelog": ["Ana sayfa kart boyutları ve kanal görselleri iyileştirildi", "İndirme ilerlemesi, aktarım hızı ve indirilen miktar anlık gösterilir", "İndirilen videolar çevrimdışı dosyalardan oynatılır", "Eksik medya dosyalarının doğrulaması, ses-video birleştirme ve oturum kararlılığı geliştirildi"]
+      "changelog": [
+        "Ana sayfa kart boyutları ve kanal görselleri iyileştirildi",
+        "İndirme ilerlemesi, aktarım hızı ve indirilen miktar anlık gösterilir",
+        "İndirilen videolar çevrimdışı dosyalardan oynatılır",
+        "Eksik medya dosyalarının doğrulaması, ses-video birleştirme ve oturum kararlılığı geliştirildi"
+      ]
     },
     {
       "id": "voxen",
@@ -49,10 +60,14 @@
       "packageName": "com.voxen.music",
       "asset": "voxen.apk",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/voxen-v2.png",
-      "versionName": "1.0.4",
-      "versionCode": 5,
+      "versionName": "1.0.5",
+      "versionCode": 6,
       "accent": "#9254D8",
-      "changelog": ["Mobil uygulama dikey kullanım için ayarlandı", "Müzik indirmeleri yüzde, boyut, hız ve tahmini kalan süreyle anlık izlenebilir", "Aktif indirmeleri durdurma, tamamlananları listeleme ve hesap geçişleri iyileştirildi"]
+      "changelog": [
+        "İndirme listesi, depolama yönetimi ve oynatıcı arayüzü iyileştirildi",
+        "Oynatma önbelleği ve uyku zamanlayıcısı geliştirildi",
+        "Hesap değişimlerinde indirilen içerik önbelleği temizlenir"
+      ]
     },
     {
       "id": "kurmay",
@@ -65,7 +80,11 @@
       "versionName": "1.0.0",
       "versionCode": 1,
       "accent": "#3B82F6",
-      "changelog": ["İlk kararlı sürüm", "Cihazlar arası eşitleme", "Dosya önizleme ve arşiv yönetimi"]
+      "changelog": [
+        "İlk kararlı sürüm",
+        "Cihazlar arası eşitleme",
+        "Dosya önizleme ve arşiv yönetimi"
+      ]
     },
     {
       "id": "collabo",
@@ -78,7 +97,11 @@
       "versionCode": 1,
       "accent": "#FBBF24",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/collabo.png",
-      "changelog": ["İlk Enverse sürümü", "Ortak çalışma panoları", "Görev, ödev ve mesajlaşma araçları"]
+      "changelog": [
+        "İlk Enverse sürümü",
+        "Ortak çalışma panoları",
+        "Görev, ödev ve mesajlaşma araçları"
+      ]
     }
   ]
 }
