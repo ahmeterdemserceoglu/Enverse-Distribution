@@ -23,10 +23,10 @@
       "packageName": "com.maxen.app",
       "asset": "maxen.apk",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/maxen-v2.png",
-      "versionName": "10.6.6",
-      "versionCode": 24,
+      "versionName": "10.6.8",
+      "versionCode": 26,
       "accent": "#E94B61",
-      "changelog": ["Yeni Maxen uygulama kimliği ve ikonları", "Android TV İzlemeye Devam Et entegrasyonu", "İzleme kaydı ve cihazlar arası aktarım düzeltmeleri"]
+      "changelog": ["Video oynatma ve indirme deneyiminde iyileştirmeler", "Android sürümü ve uygulama kararlılığı düzenlemeleri", "İmza anahtarı değişti: önceki Enverse kurulumunu kaldırıp yeniden kurun"]
     },
     {
       "id": "tuben",
@@ -49,10 +49,10 @@
       "packageName": "com.voxen.music",
       "asset": "voxen.apk",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/voxen-v2.png",
-      "versionName": "1.0.1",
-      "versionCode": 2,
+      "versionName": "1.0.2",
+      "versionCode": 3,
       "accent": "#9254D8",
-      "changelog": ["Yeni Voxen uygulama kimliği ve ikonları", "Expo 57 uyumlu Android release paketi", "Müzik oynatma ve uygulama kararlılığı iyileştirmeleri"]
+      "changelog": ["Müzik oynatma, indirme ve şarkı sözleri deneyiminde iyileştirmeler", "Arayüz ve kararlılık düzenlemeleri"]
     },
     {
       "id": "kurmay",
