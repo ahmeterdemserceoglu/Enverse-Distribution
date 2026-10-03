@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-09-19T15:20:15.655Z",
+    "generatedAt": "2026-10-03T07:36:12.175Z",
     "apps": [
       {
         "id": "enverse",
@@ -23,7 +23,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
         "sizeBytes": 83234485,
         "sha256": "c863b4313e7b438e69e660815cd60b0b79337951f05a47f2a7cb7f4b9067bb5f",
-        "releasedAt": "2026-09-19T15:20:15.456Z"
+        "releasedAt": "2026-10-03T07:36:12.084Z"
       },
       {
         "id": "maxen",
@@ -32,18 +32,18 @@
         "category": "Video",
         "packageName": "com.maxen.app",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/maxen-v2.png",
-        "versionName": "10.6.6",
-        "versionCode": 24,
+        "versionName": "10.6.8",
+        "versionCode": 26,
         "accent": "#E94B61",
         "changelog": [
-          "Yeni Maxen uygulama kimliği ve ikonları",
-          "Android TV İzlemeye Devam Et entegrasyonu",
-          "İzleme kaydı ve cihazlar arası aktarım düzeltmeleri"
+          "Video oynatma ve indirme deneyiminde iyileştirmeler",
+          "Android sürümü ve uygulama kararlılığı düzenlemeleri",
+          "İmza anahtarı değişti: önceki Enverse kurulumunu kaldırıp yeniden kurun"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
-        "sizeBytes": 86973813,
-        "sha256": "9e4b1a5484cbe979df43f3c56118d31551fe336cb4b2c52857ca7ac03d5fe57a",
-        "releasedAt": "2026-09-19T15:20:15.404Z"
+        "sizeBytes": 86990089,
+        "sha256": "b2c61385c1ae3f5f2c8d5dffe2d34c0366bdcc373ef3cab79dd8da4686d762e4",
+        "releasedAt": "2026-10-03T07:36:12.126Z"
       },
       {
         "id": "tuben",
@@ -62,7 +62,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
         "sizeBytes": 86280887,
         "sha256": "e1ebda928775c0a83a5dc4c9451cb59e663d7cb2718894a0a2ace1e2fe239ccf",
-        "releasedAt": "2026-09-19T15:20:15.511Z"
+        "releasedAt": "2026-10-03T07:36:12.043Z"
       },
       {
         "id": "voxen",
@@ -71,18 +71,17 @@
         "category": "Müzik",
         "packageName": "com.voxen.music",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/voxen-v2.png",
-        "versionName": "1.0.1",
-        "versionCode": 2,
+        "versionName": "1.0.2",
+        "versionCode": 3,
         "accent": "#9254D8",
         "changelog": [
-          "Yeni Voxen uygulama kimliği ve ikonları",
-          "Expo 57 uyumlu Android release paketi",
-          "Müzik oynatma ve uygulama kararlılığı iyileştirmeleri"
+          "Müzik oynatma, indirme ve şarkı sözleri deneyiminde iyileştirmeler",
+          "Arayüz ve kararlılık düzenlemeleri"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
-        "sizeBytes": 107353208,
-        "sha256": "231e3d94261bb88910bed656121c44f2374875f4a092be5f8d16814c215e675b",
-        "releasedAt": "2026-09-19T15:20:15.655Z"
+        "sizeBytes": 52322351,
+        "sha256": "9a57ac40c61997270aff7165027d14b3d48fc0d383f2e6125e793bed0e5de397",
+        "releasedAt": "2026-10-03T07:36:11.992Z"
       },
       {
         "id": "kurmay",
@@ -102,7 +101,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/kurmay.apk",
         "sizeBytes": 99995047,
         "sha256": "fc8cb9ff2336e6f2d76bfdf9d1c028100377096076ba5f30be5647c79fad12e3",
-        "releasedAt": "2026-09-19T15:20:15.586Z"
+        "releasedAt": "2026-10-03T07:36:12.175Z"
       },
       {
         "id": "collabo",
@@ -122,9 +121,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/collabo.apk",
         "sizeBytes": 24673909,
         "sha256": "7539791e117f8755a5b9fba5b9a40dfab430e822711eefc400634ce1487e629f",
-        "releasedAt": "2026-09-19T15:20:15.270Z"
+        "releasedAt": "2026-10-03T07:36:11.953Z"
       }
     ]
   },
-  "signature": "irTG/XohnmFLTq/vaan/9KVY8+aPvUdOXh3ti/wFT97VtrGiwVUSoAuU4FmxQ827EFq/fUccjvza/t3bRpAE81AmYuDPJNqc/hLofw/WlUoctYI9BXWMdh8D++8jxTpwdLUNbtymOlegXKFSJb8LbZr+LhcqO+Xxxr9fSPKQSzZAysoBswwdjlE6PjYDkSYyIzIoAnMZpE8w/PKTua03McsIX03DBULi30lkMENDL5WVQiH8VL3HjImu73UBhdWcX0ID8kvNgmNxAH36s4KrKJEPq6RyE9xCmVJnprpb6kqJveqsbjjzEwRvp6rQfbB8RU+Wl30whlsJmGs6DT87MA=="
+  "signature": "Tcw0VEC619IgJhHA4FZCEybnVZ8ZMTRC4hbndKu9pkxZKu9vYbWxThyFIVqIq8JALEUPwm0dv/AI51Yy7aj+knRGD+oe5msdFd8PN2WU6zDRx/P6lrkVhndXD4gSxNucpLlyPv30ENnD2zzV+5QXUt4PXZimp1u2WH+d79HTHn716Y/rpeoLyPPDvH+Y4aBRzczNoh2ydSwX7uhlrWlqsU/KwFoVkloCdZmu8vHymYqs5dOEDqgaPuR3xDO99rC7dEOhYtOB9QbIdfwVbenWbekAttTDH8WV3baTerzoFG+kmgJZXWA5KQGmTI41vwWV3LStyYL384f7ynbG7tARmw=="
 }
