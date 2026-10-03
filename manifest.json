@@ -23,10 +23,10 @@
       "packageName": "com.maxen.app",
       "asset": "maxen.apk",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/maxen-v2.png",
-      "versionName": "10.6.8",
-      "versionCode": 26,
+      "versionName": "10.6.9",
+      "versionCode": 27,
       "accent": "#E94B61",
-      "changelog": ["Video oynatma ve indirme deneyiminde iyileştirmeler", "Android sürümü ve uygulama kararlılığı düzenlemeleri", "İmza anahtarı değişti: önceki Enverse kurulumunu kaldırıp yeniden kurun"]
+      "changelog": ["İndirilen film ve bölümler oynatılırken yerel dosya öncelikli kullanılır", "Eksik HLS parçaları ve hatalı video yanıtları artık tamamlandı sayılmaz", "Duraklatma, kaldığı yerden devam etme ve indirme silme düzeltildi", "HLS ses, altyazı, başlangıç dosyası ve anahtar rotasyonu desteği geliştirildi", "10.6.6 ve daha eski Enverse Maxen kurulumlarında imza değişikliği nedeniyle yeniden kurulum gerekebilir"]
     },
     {
       "id": "tuben",
