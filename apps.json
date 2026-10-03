@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-10-03T13:10:51.239Z",
+    "generatedAt": "2026-10-03T20:23:31.367Z",
     "apps": [
       {
         "id": "enverse",
@@ -21,7 +21,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
         "sizeBytes": 39657857,
         "sha256": "5218b532d7868029bd7cd4e66acfac8ea479d78940ea1a23f7f66f5255c47376",
-        "releasedAt": "2026-10-03T13:10:51.096Z"
+        "releasedAt": "2026-10-03T20:23:31.106Z"
       },
       {
         "id": "maxen",
@@ -30,20 +30,17 @@
         "category": "Video",
         "packageName": "com.maxen.app",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/maxen-v2.png",
-        "versionName": "10.6.9",
-        "versionCode": 27,
+        "versionName": "10.6.10",
+        "versionCode": 28,
         "accent": "#E94B61",
         "changelog": [
-          "İndirilen film ve bölümler oynatılırken yerel dosya öncelikli kullanılır",
-          "Eksik HLS parçaları ve hatalı video yanıtları artık tamamlandı sayılmaz",
-          "Duraklatma, kaldığı yerden devam etme ve indirme silme düzeltildi",
-          "HLS ses, altyazı, başlangıç dosyası ve anahtar rotasyonu desteği geliştirildi",
-          "10.6.6 ve daha eski Enverse Maxen kurulumlarında imza değişikliği nedeniyle yeniden kurulum gerekebilir"
+          "Güncel Maxen Android sürüm paketi",
+          "İndirme ve çevrimdışı oynatma iyileştirmelerini içerir"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
-        "sizeBytes": 87003445,
-        "sha256": "f8e6ab08abd2b0709442ac1582b8f6488a0c64b1f5971083c703760436173996",
-        "releasedAt": "2026-10-03T13:10:51.182Z"
+        "sizeBytes": 87003449,
+        "sha256": "395b64f3605b77a4abea3f64792d0fa613b06c4d2afd64e03a32399d8d3649ab",
+        "releasedAt": "2026-10-03T20:23:31.225Z"
       },
       {
         "id": "tuben",
@@ -64,7 +61,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
         "sizeBytes": 42754743,
         "sha256": "fca1ace6b0d5395d203149547892cc1b4734db44ab36299946c60b80b29d1e32",
-        "releasedAt": "2026-10-03T13:10:51.073Z"
+        "releasedAt": "2026-10-03T20:23:31.133Z"
       },
       {
         "id": "voxen",
@@ -73,18 +70,18 @@
         "category": "Müzik",
         "packageName": "com.voxen.music",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/voxen-v2.png",
-        "versionName": "1.0.4",
-        "versionCode": 5,
+        "versionName": "1.0.5",
+        "versionCode": 6,
         "accent": "#9254D8",
         "changelog": [
-          "Mobil uygulama dikey kullanım için ayarlandı",
-          "Müzik indirmeleri yüzde, boyut, hız ve tahmini kalan süreyle anlık izlenebilir",
-          "Aktif indirmeleri durdurma, tamamlananları listeleme ve hesap geçişleri iyileştirildi"
+          "İndirme listesi, depolama yönetimi ve oynatıcı arayüzü iyileştirildi",
+          "Oynatma önbelleği ve uyku zamanlayıcısı geliştirildi",
+          "Hesap değişimlerinde indirilen içerik önbelleği temizlenir"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
-        "sizeBytes": 52209876,
-        "sha256": "7c6fb0e9f6c6b484c706da5bcfd02ab0210839eacc27c89320bc9e86424e2e1e",
-        "releasedAt": "2026-10-03T13:10:51.128Z"
+        "sizeBytes": 107341024,
+        "sha256": "dc6cf77474b88974567d8ec6bee4d113c9a274e3ef194c5ea39ea4ee8749a2ac",
+        "releasedAt": "2026-10-03T20:23:31.367Z"
       },
       {
         "id": "kurmay",
@@ -104,7 +101,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/kurmay.apk",
         "sizeBytes": 99995047,
         "sha256": "fc8cb9ff2336e6f2d76bfdf9d1c028100377096076ba5f30be5647c79fad12e3",
-        "releasedAt": "2026-10-03T13:10:51.239Z"
+        "releasedAt": "2026-10-03T20:23:31.298Z"
       },
       {
         "id": "collabo",
@@ -124,9 +121,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/collabo.apk",
         "sizeBytes": 24673909,
         "sha256": "7539791e117f8755a5b9fba5b9a40dfab430e822711eefc400634ce1487e629f",
-        "releasedAt": "2026-10-03T13:10:51.040Z"
+        "releasedAt": "2026-10-03T20:23:31.055Z"
       }
     ]
   },
-  "signature": "Shd4DwtjkC50xhhVVdveN3J6niwS5gAdzsUsLv1uXnvAqqiPgN3xKhMW6avP/97Wi8Sv8GQxpx7ngQejNDJUecS0MR7bd1kwQjgLofMnZUgPS3lbE6MQ39mM0Ck770r5nhEbiJxQiLNcbziyukGT2o4EvU0OV99ImfppKPhO9kZwWc0b+pshfWuZT+fGbdO60nRYflX0lA+9FnNTuD2F0ckW9xl/NfB+rq7cji/z9Me11NYJrUNzeuE5aG3oMB0tKN+i9WWyWdX+cTWVIpYK5bnprYJQowb0BKZdIYgLUD184UMunYdGnNL7u0YTuqF1u20nPSRFDCHkK4a9MHtJ+w=="
+  "signature": "UWtLmNohdDcI+qMtn742qYk8BBLWQbC56YBr171azckTRjBhQUBmiKIXE7zvTwnGKfoNDyVgbTqiy4cRBswonmjgE2L63droI23f7fp+56KQ28IO+PKFjbM3lvJA6hfaiNeZ9GNFwFCN3tydokEF45bHZvSZFxDbsI3zsTLX9HKJMY01d6H0Bksu2dqCK65sjdxYdyyoTDd/KMXGqwBMaMXBip6O7tJ9gauCuvJwjkHE0BCLayal3Kbcz6JiiL+gGlYuif9H9JaDhD6Xs3maTZQvB0XDooAciNRvCg/4gk/N+2XNrOJGF0AVxofvH4wP0ECKagUvcxuztdSxLytVcw=="
 }
