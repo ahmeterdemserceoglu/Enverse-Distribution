@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-10-03T07:36:12.175Z",
+    "generatedAt": "2026-10-03T08:10:23.191Z",
     "apps": [
       {
         "id": "enverse",
@@ -10,20 +10,18 @@
         "description": "Uygulama merkezi",
         "category": "Sistem",
         "packageName": "com.enverse.app",
-        "versionName": "0.3.1",
-        "versionCode": 5,
+        "versionName": "0.3.2",
+        "versionCode": 6,
         "accent": "#7C65E8",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/enverse-v2.png",
         "changelog": [
-          "Ana ekran ikonunun boşluğu düzeltildi",
-          "Uygulama içi Enverse logosu yenilendi",
-          "İmzalı dinamik katalog",
-          "Otomatik sürüm kontrolü"
+          "Güncel Maxen, Tuben ve Voxen katalog bilgileri",
+          "Android derleme uyumluluğu ve daha küçük APK paketi"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
-        "sizeBytes": 83234485,
-        "sha256": "c863b4313e7b438e69e660815cd60b0b79337951f05a47f2a7cb7f4b9067bb5f",
-        "releasedAt": "2026-10-03T07:36:12.084Z"
+        "sizeBytes": 39657857,
+        "sha256": "5218b532d7868029bd7cd4e66acfac8ea479d78940ea1a23f7f66f5255c47376",
+        "releasedAt": "2026-10-03T08:10:23.029Z"
       },
       {
         "id": "maxen",
@@ -43,7 +41,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
         "sizeBytes": 86990089,
         "sha256": "b2c61385c1ae3f5f2c8d5dffe2d34c0366bdcc373ef3cab79dd8da4686d762e4",
-        "releasedAt": "2026-10-03T07:36:12.126Z"
+        "releasedAt": "2026-10-03T08:10:23.104Z"
       },
       {
         "id": "tuben",
@@ -62,7 +60,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
         "sizeBytes": 86280887,
         "sha256": "e1ebda928775c0a83a5dc4c9451cb59e663d7cb2718894a0a2ace1e2fe239ccf",
-        "releasedAt": "2026-10-03T07:36:12.043Z"
+        "releasedAt": "2026-10-03T08:10:23.144Z"
       },
       {
         "id": "voxen",
@@ -81,7 +79,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
         "sizeBytes": 52322351,
         "sha256": "9a57ac40c61997270aff7165027d14b3d48fc0d383f2e6125e793bed0e5de397",
-        "releasedAt": "2026-10-03T07:36:11.992Z"
+        "releasedAt": "2026-10-03T08:10:23.056Z"
       },
       {
         "id": "kurmay",
@@ -101,7 +99,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/kurmay.apk",
         "sizeBytes": 99995047,
         "sha256": "fc8cb9ff2336e6f2d76bfdf9d1c028100377096076ba5f30be5647c79fad12e3",
-        "releasedAt": "2026-10-03T07:36:12.175Z"
+        "releasedAt": "2026-10-03T08:10:23.191Z"
       },
       {
         "id": "collabo",
@@ -121,9 +119,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/collabo.apk",
         "sizeBytes": 24673909,
         "sha256": "7539791e117f8755a5b9fba5b9a40dfab430e822711eefc400634ce1487e629f",
-        "releasedAt": "2026-10-03T07:36:11.953Z"
+        "releasedAt": "2026-10-03T08:10:23.002Z"
       }
     ]
   },
-  "signature": "Tcw0VEC619IgJhHA4FZCEybnVZ8ZMTRC4hbndKu9pkxZKu9vYbWxThyFIVqIq8JALEUPwm0dv/AI51Yy7aj+knRGD+oe5msdFd8PN2WU6zDRx/P6lrkVhndXD4gSxNucpLlyPv30ENnD2zzV+5QXUt4PXZimp1u2WH+d79HTHn716Y/rpeoLyPPDvH+Y4aBRzczNoh2ydSwX7uhlrWlqsU/KwFoVkloCdZmu8vHymYqs5dOEDqgaPuR3xDO99rC7dEOhYtOB9QbIdfwVbenWbekAttTDH8WV3baTerzoFG+kmgJZXWA5KQGmTI41vwWV3LStyYL384f7ynbG7tARmw=="
+  "signature": "k10A5O1xRHQJ0OrtABGgFsfvO+/qtK3Jl66P95ZH/nOmmaWvf0FOtPlhzREXU5ELDxlbD5e6yAH8AjlXFTXPp7PwIXREXIPzSLNbIJFf80vbP7iOPIStNR90tR7UPcCQ66uWvEVjPpQro5+3xGD+z9YL9hEjBSlT96NsKP/f4OiNMdR4JgUpaeToEqLLMUHgwcKtaRTLgBZILKEbYpt1p2RgpE3maCCZp/x+tuP3wMk2hR7irT5JJ6deHaSiNQsR5DGVJCS4Tr4JQCkiZz9eGjSuUY4DfHPN0/7I2wMhj51U9GbceUdLFRh3+SzjANAXqLjlp9Y9Tjl+E1681iXe/w=="
 }
