@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-10-06T14:21:06.628Z",
+    "generatedAt": "2026-10-06T15:27:38.945Z",
     "apps": [
       {
         "id": "enverse",
@@ -21,7 +21,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
         "sizeBytes": 39657857,
         "sha256": "5218b532d7868029bd7cd4e66acfac8ea479d78940ea1a23f7f66f5255c47376",
-        "releasedAt": "2026-10-06T14:21:06.397Z"
+        "releasedAt": "2026-10-06T15:27:38.684Z"
       },
       {
         "id": "maxen",
@@ -40,7 +40,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
         "sizeBytes": 87003449,
         "sha256": "395b64f3605b77a4abea3f64792d0fa613b06c4d2afd64e03a32399d8d3649ab",
-        "releasedAt": "2026-10-06T14:21:06.498Z"
+        "releasedAt": "2026-10-06T15:27:38.791Z"
       },
       {
         "id": "tuben",
@@ -49,19 +49,18 @@
         "category": "Video",
         "packageName": "com.tuben.app",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/tuben-v2.png",
-        "versionName": "1.0.2",
-        "versionCode": 3,
+        "versionName": "1.0.3",
+        "versionCode": 4,
         "accent": "#4285E8",
         "changelog": [
-          "Ana sayfa kart boyutları ve kanal görselleri iyileştirildi",
-          "İndirme ilerlemesi, aktarım hızı ve indirilen miktar anlık gösterilir",
-          "İndirilen videolar çevrimdışı dosyalardan oynatılır",
-          "Eksik medya dosyalarının doğrulaması, ses-video birleştirme ve oturum kararlılığı geliştirildi"
+          "İndirme kuyruğundaki tüm işleri tek dokunuşla duraklatıp sürdürme",
+          "Tamamlanan indirmeleri topluca temizleme",
+          "Ayarlar ekranında uygulama sürümünü doğru gösterme"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
-        "sizeBytes": 42754743,
-        "sha256": "45c28c76000b71fb25034d8f2a8c93ca852d472a7907101d16c617b119e39efd",
-        "releasedAt": "2026-10-06T14:21:06.423Z"
+        "sizeBytes": 42760359,
+        "sha256": "c1fb223d30ca6f60f5046f208295187b67ac0663f4083aa2380893084c8908b7",
+        "releasedAt": "2026-10-06T15:27:38.716Z"
       },
       {
         "id": "voxen",
@@ -81,7 +80,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
         "sizeBytes": 107341024,
         "sha256": "dc6cf77474b88974567d8ec6bee4d113c9a274e3ef194c5ea39ea4ee8749a2ac",
-        "releasedAt": "2026-10-06T14:21:06.628Z"
+        "releasedAt": "2026-10-06T15:27:38.945Z"
       },
       {
         "id": "kurmay",
@@ -101,7 +100,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/kurmay.apk",
         "sizeBytes": 99995047,
         "sha256": "fc8cb9ff2336e6f2d76bfdf9d1c028100377096076ba5f30be5647c79fad12e3",
-        "releasedAt": "2026-10-06T14:21:06.562Z"
+        "releasedAt": "2026-10-06T15:27:38.866Z"
       },
       {
         "id": "collabo",
@@ -121,9 +120,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/collabo.apk",
         "sizeBytes": 24673909,
         "sha256": "7539791e117f8755a5b9fba5b9a40dfab430e822711eefc400634ce1487e629f",
-        "releasedAt": "2026-10-06T14:21:06.274Z"
+        "releasedAt": "2026-10-06T15:27:38.643Z"
       }
     ]
   },
-  "signature": "OKSH56M9v6EjLYkPSNjhPuFRhq6p2wS3lhJRWbIOEmbqJXHNADhHytK4DJz6b52JR3PgrljvFBZfqkrcSEzsiYlG9V0DZuNyPE6ceVslx7Puzj1iSFS7u7Ky117AtWFxc+/H8mFyd7eMHqFcEjRtfzZ8pxKfCc5loe9WiWO2zWvYjIuqTPcUG8958goIPH54nvwycrWMGWNQOObPfnNGdXMclstyaRhsAQc5eon27atQgU7t7fqAsVNQ2WVc2AQSwL02zb6CaM27DWRIF+bzzWT/ChVvQ1reys2IXHk7HAiwtLhquiye/13axI/+xd66OO8a9TFNKvzdvpeRmQhO2w=="
+  "signature": "NCIovQowTm2TatGjQnOrIxPcuqfcWNkMbE7K/Kq+dfA1zkGEW7ObvYI4rkjC8smgP5N01lLNA8Ft+0ziFG/8fU4ciGMhk75p1OqbwME2uDLvlIBE0nChbJLAK4gQuuLBKsCf98ZW4aV0Rc6sE9bZ0y5z2oU8lt+O241STnx9T4oser4BJBQ15tHqxSoknw4DaOyG1I+k6E3qUzDmoiZw/xyVdmckp0fLqZAmFSfW2AGxaPRjQpXDZu1uhA77L1mJ+w029WJAYWkhnYkU9cGjF2q0+P7pQhEplJ5QWnhhj3eL1Y0dM+N/RZzk/Djp+YS0Q3PWV+e9dbZ7VD/ICY4LiA=="
 }
