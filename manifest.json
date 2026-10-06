@@ -42,12 +42,13 @@
       "packageName": "com.tuben.app",
       "asset": "tuben.apk",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/tuben-v2.png",
-      "versionName": "1.0.3",
-      "versionCode": 4,
+      "versionName": "1.0.4",
+      "versionCode": 5,
       "accent": "#4285E8",
       "changelog": [
         "İndirme kuyruğundaki tüm işleri tek dokunuşla duraklatıp sürdürme",
         "Tamamlanan indirmeleri topluca temizleme",
+        "Toplu temizlik bekleyen ve yeniden denenen indirmeleri korur",
         "Ayarlar ekranında uygulama sürümünü doğru gösterme"
       ]
     },
