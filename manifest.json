@@ -42,14 +42,13 @@
       "packageName": "com.tuben.app",
       "asset": "tuben.apk",
       "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/tuben-v2.png",
-      "versionName": "1.0.2",
-      "versionCode": 3,
+      "versionName": "1.0.3",
+      "versionCode": 4,
       "accent": "#4285E8",
       "changelog": [
-        "Ana sayfa kart boyutları ve kanal görselleri iyileştirildi",
-        "İndirme ilerlemesi, aktarım hızı ve indirilen miktar anlık gösterilir",
-        "İndirilen videolar çevrimdışı dosyalardan oynatılır",
-        "Eksik medya dosyalarının doğrulaması, ses-video birleştirme ve oturum kararlılığı geliştirildi"
+        "İndirme kuyruğundaki tüm işleri tek dokunuşla duraklatıp sürdürme",
+        "Tamamlanan indirmeleri topluca temizleme",
+        "Ayarlar ekranında uygulama sürümünü doğru gösterme"
       ]
     },
     {
