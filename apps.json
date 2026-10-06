@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-10-06T14:18:04.621Z",
+    "generatedAt": "2026-10-06T14:21:06.628Z",
     "apps": [
       {
         "id": "enverse",
@@ -21,7 +21,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
         "sizeBytes": 39657857,
         "sha256": "5218b532d7868029bd7cd4e66acfac8ea479d78940ea1a23f7f66f5255c47376",
-        "releasedAt": "2026-10-06T14:18:04.343Z"
+        "releasedAt": "2026-10-06T14:21:06.397Z"
       },
       {
         "id": "maxen",
@@ -40,7 +40,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
         "sizeBytes": 87003449,
         "sha256": "395b64f3605b77a4abea3f64792d0fa613b06c4d2afd64e03a32399d8d3649ab",
-        "releasedAt": "2026-10-06T14:18:04.477Z"
+        "releasedAt": "2026-10-06T14:21:06.498Z"
       },
       {
         "id": "tuben",
@@ -60,8 +60,8 @@
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
         "sizeBytes": 42754743,
-        "sha256": "fca1ace6b0d5395d203149547892cc1b4734db44ab36299946c60b80b29d1e32",
-        "releasedAt": "2026-10-06T14:18:04.379Z"
+        "sha256": "45c28c76000b71fb25034d8f2a8c93ca852d472a7907101d16c617b119e39efd",
+        "releasedAt": "2026-10-06T14:21:06.423Z"
       },
       {
         "id": "voxen",
@@ -81,7 +81,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
         "sizeBytes": 107341024,
         "sha256": "dc6cf77474b88974567d8ec6bee4d113c9a274e3ef194c5ea39ea4ee8749a2ac",
-        "releasedAt": "2026-10-06T14:18:04.620Z"
+        "releasedAt": "2026-10-06T14:21:06.628Z"
       },
       {
         "id": "kurmay",
@@ -101,7 +101,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/kurmay.apk",
         "sizeBytes": 99995047,
         "sha256": "fc8cb9ff2336e6f2d76bfdf9d1c028100377096076ba5f30be5647c79fad12e3",
-        "releasedAt": "2026-10-06T14:18:04.551Z"
+        "releasedAt": "2026-10-06T14:21:06.562Z"
       },
       {
         "id": "collabo",
@@ -121,9 +121,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/collabo.apk",
         "sizeBytes": 24673909,
         "sha256": "7539791e117f8755a5b9fba5b9a40dfab430e822711eefc400634ce1487e629f",
-        "releasedAt": "2026-10-06T14:18:04.288Z"
+        "releasedAt": "2026-10-06T14:21:06.274Z"
       }
     ]
   },
-  "signature": "eTX2OzeXLqco6xdADn+ZiikoJvWnIHI+asrqU6ZjCQpZYuJp4+W7IeWb1Ek9O1GVHeVo5+HXdPULpgYBNjQcNslIAu7Ld1qaRW5r/5qQJuz4mInElLZleKl7hYNKK/ZTa5l4TOmu3LPqBLt3pz5giip7iiqTyxcErkqwzrkdHEY+El5xWPMUgtfzTY9zpgXC2cxBXazYkYztJCH2pP95vFrn027zKG/9/OeCoejHksDdkt1j74AfIawMVsgcvlpqe7SvNqgl/9OVFya/m6mzYOeHXudTTcg5JwDQTNMBhcYMz2kQa+NPMrVuxtgQhQrx0i0ALeArzO34JhfcdqA0eQ=="
+  "signature": "OKSH56M9v6EjLYkPSNjhPuFRhq6p2wS3lhJRWbIOEmbqJXHNADhHytK4DJz6b52JR3PgrljvFBZfqkrcSEzsiYlG9V0DZuNyPE6ceVslx7Puzj1iSFS7u7Ky117AtWFxc+/H8mFyd7eMHqFcEjRtfzZ8pxKfCc5loe9WiWO2zWvYjIuqTPcUG8958goIPH54nvwycrWMGWNQOObPfnNGdXMclstyaRhsAQc5eon27atQgU7t7fqAsVNQ2WVc2AQSwL02zb6CaM27DWRIF+bzzWT/ChVvQ1reys2IXHk7HAiwtLhquiye/13axI/+xd66OO8a9TFNKvzdvpeRmQhO2w=="
 }
