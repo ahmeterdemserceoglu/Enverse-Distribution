@@ -2,7 +2,7 @@
   "payload": {
     "schemaVersion": 2,
     "channel": "stable",
-    "generatedAt": "2026-10-06T15:27:38.945Z",
+    "generatedAt": "2026-10-06T15:37:42.203Z",
     "apps": [
       {
         "id": "enverse",
@@ -21,7 +21,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/enverse.apk",
         "sizeBytes": 39657857,
         "sha256": "5218b532d7868029bd7cd4e66acfac8ea479d78940ea1a23f7f66f5255c47376",
-        "releasedAt": "2026-10-06T15:27:38.684Z"
+        "releasedAt": "2026-10-06T15:37:41.954Z"
       },
       {
         "id": "maxen",
@@ -40,7 +40,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/maxen.apk",
         "sizeBytes": 87003449,
         "sha256": "395b64f3605b77a4abea3f64792d0fa613b06c4d2afd64e03a32399d8d3649ab",
-        "releasedAt": "2026-10-06T15:27:38.791Z"
+        "releasedAt": "2026-10-06T15:37:42.055Z"
       },
       {
         "id": "tuben",
@@ -49,18 +49,19 @@
         "category": "Video",
         "packageName": "com.tuben.app",
         "iconUrl": "https://raw.githubusercontent.com/ahmeterdemserceoglu/Enverse-Distribution/main/icons/tuben-v2.png",
-        "versionName": "1.0.3",
-        "versionCode": 4,
+        "versionName": "1.0.4",
+        "versionCode": 5,
         "accent": "#4285E8",
         "changelog": [
           "İndirme kuyruğundaki tüm işleri tek dokunuşla duraklatıp sürdürme",
           "Tamamlanan indirmeleri topluca temizleme",
+          "Toplu temizlik bekleyen ve yeniden denenen indirmeleri korur",
           "Ayarlar ekranında uygulama sürümünü doğru gösterme"
         ],
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/tuben.apk",
-        "sizeBytes": 42760359,
-        "sha256": "c1fb223d30ca6f60f5046f208295187b67ac0663f4083aa2380893084c8908b7",
-        "releasedAt": "2026-10-06T15:27:38.716Z"
+        "sizeBytes": 42760707,
+        "sha256": "e80c6acd7dd17b44d007323b31ee9b1f617111200da3caa237025154711c1566",
+        "releasedAt": "2026-10-06T15:37:41.928Z"
       },
       {
         "id": "voxen",
@@ -80,7 +81,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/voxen.apk",
         "sizeBytes": 107341024,
         "sha256": "dc6cf77474b88974567d8ec6bee4d113c9a274e3ef194c5ea39ea4ee8749a2ac",
-        "releasedAt": "2026-10-06T15:27:38.945Z"
+        "releasedAt": "2026-10-06T15:37:42.133Z"
       },
       {
         "id": "kurmay",
@@ -100,7 +101,7 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/kurmay.apk",
         "sizeBytes": 99995047,
         "sha256": "fc8cb9ff2336e6f2d76bfdf9d1c028100377096076ba5f30be5647c79fad12e3",
-        "releasedAt": "2026-10-06T15:27:38.866Z"
+        "releasedAt": "2026-10-06T15:37:42.203Z"
       },
       {
         "id": "collabo",
@@ -120,9 +121,9 @@
         "apkUrl": "https://github.com/ahmeterdemserceoglu/Enverse-Distribution/releases/latest/download/collabo.apk",
         "sizeBytes": 24673909,
         "sha256": "7539791e117f8755a5b9fba5b9a40dfab430e822711eefc400634ce1487e629f",
-        "releasedAt": "2026-10-06T15:27:38.643Z"
+        "releasedAt": "2026-10-06T15:37:41.876Z"
       }
     ]
   },
-  "signature": "NCIovQowTm2TatGjQnOrIxPcuqfcWNkMbE7K/Kq+dfA1zkGEW7ObvYI4rkjC8smgP5N01lLNA8Ft+0ziFG/8fU4ciGMhk75p1OqbwME2uDLvlIBE0nChbJLAK4gQuuLBKsCf98ZW4aV0Rc6sE9bZ0y5z2oU8lt+O241STnx9T4oser4BJBQ15tHqxSoknw4DaOyG1I+k6E3qUzDmoiZw/xyVdmckp0fLqZAmFSfW2AGxaPRjQpXDZu1uhA77L1mJ+w029WJAYWkhnYkU9cGjF2q0+P7pQhEplJ5QWnhhj3eL1Y0dM+N/RZzk/Djp+YS0Q3PWV+e9dbZ7VD/ICY4LiA=="
+  "signature": "cl+1lVpBBwdsBFkgJL8Gn5PDPbOCHyxDpAtQTPQ8KOL13L3MHuwEp8/mrZ0uP+AIAAMjt2Ed0iv4AjhsODLb6ynsBCAYaigNN0C6X39+qAAna0AkR5U1b9SJnMXVqnuHuI38X3OGcQUksXKcsuhDHu5zhjT9Vwmav85N+q2G8sThpEFs4TkL2SzQlTFg8llXavo9oHyvAegpgpUiT2Igjy23CzIO2ZLvtcNTjd6dWH+AlSjbg0sES3L+XE+1ke2tyGMs7pHt5wERvsbi6BXf1Mr5bAGithmE0AdlC0dw69nT9+DU/2BslNgTaw/fVuwFWZpbaf+61LSqRlOJOLb0Sg=="
 }
